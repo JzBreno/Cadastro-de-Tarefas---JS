@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Projeto JS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <input type="text" id="busca" placeholder="pesquisar por titulo">
+    </header>
+    <main>
+        <section id="tarefas">
+            <h2>Tarefas <button  onclick="novaTarefa()">nova tarefa </button></h2>
+            <!--h6>nenhuma tarefa Registrada</!h6-->
+            <ul>
+                <li>
+                    <h5>Titulo da Tarefa</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet quae voluptates illo, in consequuntur officia autem placeat fugiat minus soluta asperiores. Quo facilis vero, inventore sint ab commodi qui cupiditate?
+
+                    </p>
+                </li>
+                <li>
+                    <h5>Titulo da Tarefa</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet quae voluptates illo, in consequuntur officia autem placeat fugiat minus soluta asperiores. Quo facilis vero, inventore sint ab commodi qui cupiditate?
+                        
+                    </p>
+                </li>
+                <li>
+                    <h5>Titulo da Tarefa</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet quae voluptates illo, in consequuntur officia autem placeat fugiat minus soluta asperiores. Quo facilis vero, inventore sint ab commodi qui cupiditate?
+                        
+                    </p>
+                </li>
+                <li>
+                    <h5>Titulo da Tarefa</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet quae voluptates illo, in consequuntur officia autem placeat fugiat minus soluta asperiores. Quo facilis vero, inventore sint ab commodi qui cupiditate?
+                        
+                    </p>
+                </li>
+                <li>
+                    <h5>Titulo da Tarefa</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet quae voluptates illo, in consequuntur officia autem placeat fugiat minus soluta asperiores. Quo facilis vero, inventore sint ab commodi qui cupiditate?
+                        
+                    </p>
+                </li>
+                <li>
+                    <h5>Titulo da Tarefa</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet quae voluptates illo, in consequuntur officia autem placeat fugiat minus soluta asperiores. Quo facilis vero, inventore sint ab commodi qui cupiditate?
+                        
+                    </p>
+                </li>
+
+            </ul>
+        </section>
+        <section id="overlay">
+            <div id="criarTarefa" class="modal">
+                <form action="">
+
+                    <h3>Criar Tarefa <box-icon type='solid' name='x-square' size="md" onclick="fecharModal()"></box-icon></h3>
+                    <label for="titulo">Titulo</label>
+                    <input type="text" id="titulo">
+
+                    <label for="descricao">Descrição</label>
+                    <textarea id="descricao"></textarea>
+
+                    <button>Criar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+</body>
+</html>
