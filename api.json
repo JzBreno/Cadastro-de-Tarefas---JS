@@ -1,7 +1,19 @@
 {
-    "tarefas": [
-        {"titulo": "tarefa 1",
-        "descricao": "Fazer tal coisa",
-        "tamanho": "nome do tamanho"}
-    ]
+  "tarefas": [
+    {
+      "titulo": "a",
+      "descricao": "aaa",
+      "id": 1
+    },
+    {
+      "titulo": "aaa",
+      "descricao": "aaa",
+      "id": 2
+    },
+    {
+      "titulo": "aaaaa",
+      "descricao": "aaa",
+      "id": 3
+    }
+  ]
 }
